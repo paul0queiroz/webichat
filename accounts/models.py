@@ -39,4 +39,4 @@ class User (AbstractBaseUser):
         return self.is_superuser
     
     class Meta:
-        db_table = "Users"
+        db_table = "users"

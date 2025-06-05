@@ -28,6 +28,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = []
 
+#SET CURRENT URL IN THE OUR MACHINE
+CURRENT_URl = "http://127.0.0.1:8000"
+
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000'
 ]
@@ -118,9 +121,7 @@ AUTH_PASSWORD_VALIDATORS = [
     },
 ]
 
-AUTH_USER_MODEL = [
-    "accounts.User",
-]
+AUTH_USER_MODEL = "accounts.User"
 
 
 # Internationalization
